@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: 'Poppins', sans-serif;
+}
+
+html,body {
+scroll-behavior: smooth;
+}
+
+
+
+
+a{
+text-decoration: none;
+}
+
+
+a img{
+border: none,
+}
+
+
+/*----------------- cabecera------------*/
+header{
+width: 100%;
+background: #2e0020;
+background-image: linear-gradient(60deg, #2e012e 0%, #640043 40%, #a80355 100%);
+position: fixed;
+left: 0;
+top: 0;
+z-index: 999;
+}
+
+#cabecera{
+max-width: 100%;
+display: flex;
+flex-wrap: wrap;
+margin: auto;
+}
+
+#logo{
+flex: 20%;
+padding-top: 20px;
+padding-left: 5px;
+display: flex;
+align-content: center;
+}
+
+#logo a{
+padding: 0;
+}
+
+#logo img{
+max-width: 10%;
+}
+
+/* -------------------MENU------------------------ */
+
+
+
+.menu{
+flex: 80%;
+display: flex;
+flex-wrap: wrap;
+align-content: center;
+}
+
+.menu ul{
+display: flex;
+justify-content: flex-start;
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.menu ul li{
+padding: 10px;
+}
+
+.menu a{
+display: block;
+color: #FFFFFF;
+padding: 0 10px;
+font-size: 40px;
+font-weight: 500;
+}
+
+.menu a i{
+font-size: 40px;
+padding: 0 10px;
+}
+
+.menu a:hover{
+text-decoration: 4px underline solid;
+}
+
+
+
+/* -------------------BANNER------------------------ */
+
+#banner{
+background-image: url('../ZP22I04-001/Clave B/DIAMADRE.jpg');
+background-size: cover;
+background-position: center;
+height: 1004px;
+margin-top: 140px;
+max-width: 100%;
+}
+
+
+h2 {
+font-size: 70px;
+font-weight: 900;
+background-image: linear-gradient(90deg, #2e012e 40%, #640043 50%, #a80355 60%);
+-webkit-background-clip: text;
+-moz-background-clip: text;
+background-clip: text;
+color: transparent;
+}
+
+#inicio{
+background-color: #c5bebe;
+background-position: 500px bottom;
+position: relative;
+height: 920px;
+padding-top: 170px;
+text-align: center;
+} 
+
+#articulos{
+background: url("../ZP22I04-001/Clave B/tren.png") no-repeat bottom;
+background-color: #FFFFFF;
+background-position: 500px bottom;
+position: relative;
+height: 920px;
+padding-top: 170px;
+text-align: center;
+}
+
+
+#mas , #calendario{
+background: url("../ZP22I04-001/Clave B/fondo-ciudad.png") no-repeat bottom;
+background-color: #E9E9E9;
+position: relative;
+height: 920px;
+padding-top: 170px;
+text-align: center;
+}
+
+
+/* pie*/
+
+footer{
+background-color: #f54444;
+padding: 20px;
+height: 180px;
+}
+
+.elementos {
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+height: 100%;
+padding: 0 20px;
+}
+
+.nombre{
+font-size: 45px;
+font-weight: 400;
+color: #FFFFFF;
+padding: 0;
+}
+
+.redes_sociales ul{
+padding: 0;
+display: flex;
+list-style: none;
+}
+
+.redes_sociales ul li{
+padding: 0 20px;
+}
+.redes_sociales ul li a{
+color: #ce094b;
+text-align: center;
+font-size: 50px;
+}
